@@ -1,0 +1,53 @@
+body{
+    margin: 0;         /*default margin*/
+    display: flex;       /* every thing went next to each other */
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    overflow: hidden;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-align: center;
+    color: cadetblue;
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(161, 225, 228);
+    opacity: .6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(74, 173, 177);
+    opacity: .8;
+}
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: cornflowerblue;
+}
